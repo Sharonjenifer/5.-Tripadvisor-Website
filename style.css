@@ -223,12 +223,12 @@ rgba(0, 0, 0, 0.716));
     margin-top: 50px;
     
 }
-.footer__one__s1, .footer__one__s2, .footer__one__s3{
+.footer__one__s1, .footer__one__s2, .footer__one__s3 .footer__one__s4{
     cursor: pointer;
 }
 .footer__one{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-evenly; 
 }
 .footer__one p{
     margin: 20px;
