@@ -227,8 +227,7 @@ rgba(0, 0, 0, 0.716));
     cursor: pointer;
 }
 .footer__one{
-    display: flex;
-     
+    display: flex;   
 }
 .footer__one p{
     margin: 20px;
