@@ -219,7 +219,7 @@ rgba(0, 0, 0, 0.716));
 }
 .footer{
     background-color: rgb(228, 226, 226);
-    padding: 30px;
+    padding: 3px;
     margin-top: 50px;
     
 }
@@ -228,7 +228,7 @@ rgba(0, 0, 0, 0.716));
 }
 .footer__one{
     display: flex;
-    justify-content: space-evenly; 
+     
 }
 .footer__one p{
     margin: 20px;
