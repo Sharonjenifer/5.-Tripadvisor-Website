@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gabarito', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.navbar__s1 img{
+    width: 160px;  
+}
+.navbar__s2{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+    gap: 50px; 
+    cursor: pointer;
+     
+}
+
+.navbar__s3 i{
+  margin-right: 5px;
+  cursor: pointer;
+}
+.navbar__button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.title{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    position: relative;
+    left: 30%;
+    gap: 10px;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: solid black 1px;
+    width: 40%;
+    align-items: center;
+}
+.search input{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.search input:focus{
+outline: none;
+}
+.search__button{
+    background-color: #34e0a1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+}
+.Trip-images img{
+    display: flex;
+    position: relative;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 30px;
+    
+}
+.trip-images__offer{
+    background-color: transparent;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 30%;
+    font-size: 160%;
+    
+}
+
+.trip-image__button{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(229, 106, 180);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.trip-images__p{
+    font-size: 10px;
+}
+.beta{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+}
+.recommended{
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 30px;
+}
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recommended__title{
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.recommended__desc{
+    padding-left: 5px;
+}
+.course-card{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+    position: relative;
+    cursor: pointer;   
+}
+.course-card img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.course-card h3{
+color: white;
+background-image: linear-gradient(rgba(255, 255, 255, 0), 
+rgba(0, 0, 0, 0.716));
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    padding: 5px 0 10px 10px;
+    width: 87%;
+    font-size: 30px;
+
+}
+
+.course-card__desc{
+    text-align: center;
+    padding: 10px; 
+    cursor: pointer;
+}
+.course-card__s1{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+    position: relative;
+    cursor: pointer;   
+}
+.course-card__s1 img{
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.course-card__desc-s1{
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.course-card__s2{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+    position: relative;
+    cursor: pointer;   
+}
+.course-card__s2 img{
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.lastimg{
+    width: 100%; 
+}
+.footer{
+    background-color: rgb(228, 226, 226);
+    padding: 30px;
+    margin-top: 50px;
+    
+}
+.footer__one__s1, .footer__one__s2, .footer__one__s3{
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;   
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer__one__s4{
+    position: relative;
+    left: 31%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer__two img{
+    width: 3%;
+    cursor: pointer;
+}
+.footer__button button{
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   position: relative;
+   left: 120%;
+   margin: 10px;
+   cursor: pointer;
+   
+}
+.footer__three{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 470px;
+    margin: 10px;
+}
+.footer__three p{
+    font-size: 12px;
+    
+}
+.footer__three__s1{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1300px) {
+    .footer{
+        font-size: 10px;
+    }
+    .footer__button{
+        display: none;
+    }
+    .footer__one__s4{
+        position: relative;
+        left: 5px;
+        font-size: 12px;
+    }
+    .footer__one{
+        display: flex;
+        gap: 5px;   
+    }
+    .footer__one__s1, .footer__one__s2, .footer__one__s3{
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .footer__two{ 
+        font-size: 12px;
+        
+    }
+    .footer__two img{ 
+        width: 10%;
+        
+    }
+    .footer__three__s1 i{
+        display: none;
+    }
+    .footer__three{
+        display: flex;
+        gap: 1px;
+    }
+    .course-card{
+        flex-basis: 40%;   
+     }
+     .course-card__s1{
+        flex-basis: 50%;   
+     }
+     .course-card__s2{
+        flex-basis: 40%;   
+     }
+     .navbar__s2{
+        display: none;
+    }
+    .categories{
+        display: none;
+    }
+    .search__button{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .trip-images__offer{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    body{
+        font-size: 12px;
+    }
+    .navbar__s2{
+        display: none;
+    }
+    .categories{
+        display: none;
+    }
+    .search__button{
+        padding: 5px;
+    }
+   .trip-images__offer{
+        display: none;
+    }
+    .course-card{
+       flex-basis: 50%;
+       
+    }
+    .footer__button{
+        display: none;
+    }
+    .footer__one__s4{
+        position: relative;
+        left: 5px;
+    }
+    .footer__one{
+        display: flex;
+        gap: 5px;   
+    }
+    .footer__two img{ 
+        width: 10%;
+        
+    }
+    .footer__three__s1 i{
+        display: none;
+    }
+    .footer__three{
+        display: flex;
+        gap: 1px;
+    }
+}
+
