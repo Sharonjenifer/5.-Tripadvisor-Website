@@ -4,7 +4,7 @@ This project is a simple Tripadvisor-style web page, created using HTML and basi
 
 **How to view:**
 
-You can access my website by visiting [].
+You can access my website by visiting [https://sharonjenifer.github.io/5.-Tripadvisor-Website/].
 
 **Features**:
 
