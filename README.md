@@ -1,20 +1,30 @@
-# Simple Tripadvisor Web Page
+# 🌍 TripAdvisor – Travel Website
 
-This project is a simple Tripadvisor-style web page, created using HTML and basic CSS. It is designed to mimic the layout and structure of a travel review platform, showcasing popular destinations, reviews, and travel tips.
+A simple, static **TripAdvisor-style travel website** built using **HTML** and **CSS**. This project includes pages for exploring destinations, reading reviews, and discovering hotels and attractions, designed with a clean and responsive layout.
 
-**How to view:**
+---
 
-You can access my website by visiting [https://sharonjenifer.github.io/5.-Tripadvisor-Website/].
+## 🔗 Live Demo
 
-**Features**:
+[🌐 View Live Site](https://sharonjenifer.github.io/5.-Tripadvisor-Website/)
 
-**Home Page:** Highlights featured destinations and travel experiences.
-**Review Section:** Displays user reviews for various locations.
-**Responsive Layout:** Ensures a seamless experience across devices.
+---
 
-**Technologies Used:**
+## ✨ Features
 
-**HTML5**: For structuring content.
-**CSS3**: For styling and layout.
+- 🧭 Homepage with destination highlights  
+- 🏨 Section for hotels, restaurants, and attractions  
+- 🌟 Review-style layout similar to TripAdvisor  
+- 📱 Fully responsive design  
+- 🎨 Clean UI using only HTML & CSS  
+- 📸 Image grid for showcasing places  
 
-Feel free to explore the code, suggest improvements.
+---
+
+## 🧰 Tech Stack
+
+- **HTML5**  
+- **CSS3** 
+
+---
+
